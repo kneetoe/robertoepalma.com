@@ -1,0 +1,65 @@
+$primary-color: #385D66;
+$primary-color-light: #4c727c;
+
+.pageBody {
+    background-color: #385D66;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    //height: 150vh;
+    
+    font-family: 'Exo 2';
+    flex-direction: column;
+
+    
+}
+
+.projects {
+    width: 80%;
+    margin-bottom: 70px;
+}
+
+.titleContainer {
+    padding-top: 4rem;
+    width: 100%;
+    height: 100vh;
+    background-color: $primary-color-light;
+    background: linear-gradient(
+        rgba(56,93,102,0.0), rgba(0,0,0,0.0)),
+         url(/images/background.png)
+         ;
+    // background: url(/images/bellingham.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 30vh;
+    }
+
+
+    h1 {
+        margin: 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 5.5rem;
+        color: #FFFFFF;
+        text-shadow: 0.5rem 0.5rem 0px #EC795C;
+    }
+
+    h2 {
+        margin-top: 0;
+        font-size: 3.5rem;
+        color:#ffffff;
+        font-style: italic;
+        text-align: center;
+        text-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.4)
+
+    }
+
+}

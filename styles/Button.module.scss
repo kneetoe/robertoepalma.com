@@ -1,0 +1,26 @@
+$primary-color: #385D66;
+
+
+.btn {
+    padding: 1em 1.5em;
+    background-color: #F1BF60;
+    border: 0.58rem solid #DFE0C0;
+    box-sizing: border-box;
+    border-radius: 1.5em;
+
+    font-family: 'Exo 2';
+    font-size: 1.5em;
+    color: $primary-color;
+
+
+    cursor: pointer;
+    transition-duration: 0.4s;
+    
+    
+
+    
+}
+
+.btn:hover {
+    background-color: #DFE0C0;
+}

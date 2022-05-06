@@ -1,0 +1,87 @@
+$primary-color-light: #528f7b;
+
+
+.project {
+    transition: all .4s ease-in-out;
+    margin-top: 4vw;
+    padding: 20px;
+    background-color: $primary-color-light;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: "Exo 2";
+
+
+
+    .phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1 / 2 / 2 / 3; 
+        height: 40vw;
+
+        img {
+           
+            height: 40vw;
+        }
+
+    }
+
+    .photo {
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: 1 / 2 / 2 / 3; 
+        height: 40vw;
+
+        img {
+            margin-top: 110px;
+            height: 30vw;
+        }
+
+    }
+
+    .description {
+        grid-area: 1 / 3 / 2 / 4; 
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding-right: 40px;
+
+        h2 {
+            font-size: 2.5rem;
+            color: #fff;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            
+        }
+        h3 {
+            font-size: 1.4rem;
+            color:#fff;
+            text-shadow: 0.2rem 0.2rem 0px #EC795C;
+            margin-bottom:0;
+
+            // color: #EC795C;
+        }
+        
+    }
+
+
+    h2 {
+        margin: 0;
+    }
+
+}
+
+.project:hover {
+    
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 52px 74px rgb(0 0 0 / 5%);
+}
