@@ -1,0 +1,98 @@
+
+.pageBody{
+    position: relative;
+    margin-top: 4rem;
+    background-color: #385D66;
+    
+    
+    width: 100%;
+    font-family: 'Exo 2';
+    flex-direction: column;
+    display: block;
+    align-items: center;
+    // background: rgb(56,93,102);
+
+    .tContainer {
+        height: 1050px;
+        background: rgb(56,93,102);
+        background: linear-gradient(262deg, rgba(56,93,102,1) 0%, rgba(75,114,123,1) 65%, rgba(106,147,157,1) 100%);
+        margin-bottom: 10em;
+        padding: 0 0 6em;
+
+        .title {
+            padding: 14em 0;
+            display: block;
+            margin: 0 10%;
+
+            
+            .subtitle {
+                color:#fff;
+                font-weight: 100;
+                margin-top: 200px;
+                font-size: 2rem;
+            }
+
+
+            h1 {
+                font-size: 3.5rem;
+                color:#fff;
+                text-shadow: 0.3rem 0.3rem 0px #EC795C;
+                margin-bottom:20px;
+            }
+
+        }
+
+        .titlePhoto {
+            max-width: 90%;
+            margin: 0 auto;
+            display: flex;
+
+            align-items: center;
+            justify-content: space-between;
+            img {
+                max-width: 30%;
+                position: relative;
+            }
+            img:nth-child(2) {
+                top: -90px
+            }
+            img:nth-child(3) {
+                top: -180px
+            }
+
+        }
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .pageBody {
+        .tContainer {
+            height: auto;
+
+            .title {
+                margin: 0 5%;
+                padding: 4em 0;
+                
+                h1 {
+                    font-size: 2.5rem;
+                }
+                .subtitle {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .titlePhoto {
+                img:nth-child(2) {
+                    top: 0;
+                }
+                img:nth-child(3) {
+                    top: 0;
+                }
+
+            }
+        }
+    }
+
+
+}
