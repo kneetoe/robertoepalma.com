@@ -33,9 +33,14 @@ const mindbot = () => {
               <h2>The Problem</h2>
               <p>Due to the pandemic there was an increase in stress among many people, 
                 but as our research showed, it was especially difficult for indiviuals 
-                living with autism. Wanting to provide a way to address this increase 
-                in stress and anxiety in a healthy way research was done on how we could 
-                achieve this.</p>
+                living with autism. <br/><br/>Working under the NEAT LAB at Western Washington
+                University,
+                Ethan Karlinsey, Prab Deol, Kohl Nguyen, and I worked as a team to
+                 to provide a way to address this increase in stress and anxiety in a
+                  healthy and sustainable way. Research done by Ashima Shrivastava paved
+                   the way towards this solution. Ashima, Gabriel Lam, and I
+                   researched throughout the process to assist in our implementation.
+                    </p>
             </div>
 
             <div className={projectStyles.contentGallery}>
@@ -50,21 +55,21 @@ const mindbot = () => {
                 <p>Program for qualitative research or qualitative data analysis.</p>
               </div>
 
-              
-              
-
-
             </div>
+
             <div className={projectStyles.contentRow}>
               <h2>The Research</h2>
-              <p>There was research done involving 15 participants that were asked about
+              <p>The research that was done during the implementation involved
+                 15 participants. There was a prototype that was made using Figma.
+                 The participants were each asked about
                  the stress in their daily lives, how the pandemic afftected them, what
                   they did to cope, and also their thoughts on our prototype that we had
-                   made. All these findings interviews were analyzed in Atlas.ti where 
+                   made. All the interviews were analyzed in Atlas.ti where 
                    they were coded and analyzed further.
 
-                  <br></br><br></br> The initial research provided us with three main pages that we
-                   wanted to include in the main design.
+                  <br></br><br></br> The research Ashima had done before we had joined the project
+                   provided us with three main pages that were thought to be
+                    included in the main design. 
                    </p>
             </div>
 
@@ -82,7 +87,7 @@ const mindbot = () => {
                   <img src='/images/mbIcon2.png'></img>
                   <h3>ChatBot Page</h3>
                   <p>How was your day? Utilizing the technologies that currently exist we can
-                    offer users for mental relief. Most people find it very helpful to have 
+                    offer users mental relief. Most people find it very helpful to have 
                     someone to talk to about thier day and how they are feeling. Having an
                     AI Chatbot could help users destress without worring about privacy.
                     </p>
@@ -129,20 +134,82 @@ const mindbot = () => {
 
             <div className={projectStyles.contentGallery}>
 
-            <div className={projectStyles.gCont}>
-              <img src='/images/mbp1.png'></img>
+              <div className={projectStyles.gCont3}>
+                <img src='/images/mbp1.png'></img>
+                <p>Prototype 'Main menu'</p>
+              </div>
+
+              <div className={projectStyles.gCont3}>
+                <img src='/images/mbp2.png'></img>
+                <p>Prototype 'Mindfulness'</p>
+              </div>
+
+              <div className={projectStyles.gCont3}>
+                <img src='/images/mbp3.png'></img>
+                <p>Prototype 'Chat with bot'</p>
+                
+              </div>
+            </div>
+            <div className={projectStyles.contentRow}>
+              <h2>Implementation</h2>
+              <p> With all these ideas and the input from potential users it was time to implement 
+                our proof of concept. We sat down and talked about what framework would work best.
+                We came to the decison that we would us a framework made by Meta called
+                 Expo. Expo is worked perfectly for us because it 
+                allows for your code to be viewed as an mobile app and a website without having
+                to have two seperate codebases. We also liked that it offered fast refresh and 
+                true native capabilities. Thank you for something Meta!
+
+                <br/><br/>
+                As for the main feature, we needed to implement the conversations that would
+                take place with the bot. In order to do this we used the already existing technology.
+                This was the Huggingface DialoGPT model which was pretrained on reddit data. This
+                allowed us to have the computer carry out multiturn conversations with users. One
+                of the downsides that we would like to work on in the future is to have a dataset
+                that is more family friendly rather than reddit comments isn't necessarily ideal
+                for a therapeutic setting. 
+
+                   </p>
             </div>
 
-            <div className={projectStyles.gCont}>
-              <img src='/images/mbp2.png'></img>
+            <div className={projectStyles.contentGallery}>
+
+              <div className={projectStyles.gCont3}>
+                <img src='/images/mbExpo.png'></img>
+                <p>Meta's Expo Framework</p>
+              </div>
+
+              <div className={projectStyles.gCont3}>
+                <img src='/images/mbdialogpt.png'></img>
+                <p>Prototype 'Mindfulness'</p>
+              </div>
+
             </div>
 
-            <div className={projectStyles.gCont}>
-              <img src='/images/mbp3.png'></img>
-              
+            <div className={projectStyles.contentRow}>
+              <p> 
+                Finally we needed a database that could record chatbot responses and also carry
+                account credential and account details in one place. We decided to use a service
+                called Firebase.
+                <br/><br/>
+                In the end we decided to feature 4 App navigation stacks. These stacks and the
+                pages can be viewed in the diagram below.
+
+
+                   </p>
             </div>
 
-            <p>Prototype pages for the app</p>
+            <div className={projectStyles.contentGallery}>
+
+              <div className={projectStyles.gCont}>
+                  <img src='/images/mbdiagram2.png'></img>
+                  <p>App Navigation</p>
+              </div>
+
+              <div className={projectStyles.gCont}>
+                <img src='/images/mbdiagram1.png'></img>
+                <p>Database communication</p>
+              </div>
 
             </div>
 
