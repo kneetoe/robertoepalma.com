@@ -37,7 +37,9 @@ $primary-color-light: #4c727c;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 
+    
     img {
         width: 30vh;
     }
