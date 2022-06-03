@@ -16,7 +16,7 @@ const about = () => {
 
         <div className={aboutStyle.tContainer}>
             <img src='/images/rowingme.jpg'></img>
-            <div className={aboutStyle.tText}>
+            <div className={aboutStyle.tText + " " + aboutStyle.slidein} >
                 <h2>Hello!</h2>
             
                 <div className={aboutStyle.subtitle}>

@@ -31,12 +31,16 @@
 
             img {
                 height: 500px;
+                border-radius: 25px;
+                box-shadow: 10px 10px 0px #F1BF60;
             }
 
 
             .tText {
                 margin-left: 5%;
                 display: block;
+                animation-name: slidein;
+                animation-duration: 2s;
 
 
                 
@@ -72,12 +76,14 @@
     .pageBody {
         .tBlock {
             .tContainer {
+                padding-top: 100px;
             
                 max-width: auto;
                 width: 80%;
+                align-items: center;
 
                 img {
-                    height: 300px;
+                    height: 350px;
                 }
 
             }
@@ -86,3 +92,63 @@
 
 
 }
+
+@media screen and (max-width:1280px) {
+    .pageBody {
+        .tBlock {
+            .tContainer {
+                padding-top: 100px;
+            
+                max-width: auto;
+                width: 80%;
+                align-items: center;
+
+                img {
+                    height: 350px;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width:958px) {
+    .pageBody {
+        .tBlock {
+            .tContainer {
+                flex-direction: column;
+                padding-top: 40px;
+            
+                max-width: auto;
+                width: 90%;
+                justify-content: flex-start;
+
+                img {
+                    height: 450px;
+                    border-radius: 25px;
+                    box-shadow: 10px 10px 0px #F1BF60;
+                }
+                h2 {
+                    margin-top: 10px;
+                }
+
+            }
+        }
+    }
+
+
+}
+
+@keyframes slidein {
+    from {
+      transform: translateY(-50px);
+      opacity:(0%);
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity:(100%);
+    }
+  }
