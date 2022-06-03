@@ -1,7 +1,7 @@
 import React from 'react'
 import Meta from '../components/Meta'
 import artStyles from '../styles/Art.module.scss'
-import BSApp from '../components/BSApp.js'
+import ArtDisplayer from '../components/ArtDisplayer.js'
 
 const art = () => {
 
@@ -30,6 +30,8 @@ const art = () => {
             
         </div>
 
+        
+
 
         {/* <div className={artStyles.artContainer}>
                 <div className={artStyles.artwork + " " + artStyles.s1}>
@@ -46,7 +48,7 @@ const art = () => {
         </div> */}
 
         <div>
-            <BSApp/> 
+            <ArtDisplayer/> 
         </div>
 
 

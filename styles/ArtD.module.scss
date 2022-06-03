@@ -18,7 +18,7 @@
   }
   h1,h2 {
     font-family: 'Exo 2';
-    text-transform: uppercase;
+    
     text-align: center;
     font-size: 50px;
     margin: 20px 0 0;
@@ -49,10 +49,9 @@
     text-align: center;
     padding: 10px 0;
     background: #4c727c;
-    font-size: 15px;
-    text-transform: uppercase;
+   
     color:#fff;
-    font-size: 1.2rem
+    font-size: 1.3rem
   }
   figure img {
     border: 5px solid #4c727c;
@@ -141,11 +140,13 @@
     grid-template-columns: max(18vw, 300px) 1fr;
     align-items: center;
     border: 3px solid ($color2);
+
   }
   
   .modalText {
     padding: 10px;
     padding-left: max(2vw, 30px);
+    color: #fff;
     h2 {
       padding-bottom: 10px;
     }
@@ -158,22 +159,26 @@
       
     }
     p {
-      line-height: 20px;
+        font-size: 1.3rem;
+      line-height: 25px;
       display: inline-block;
     }
     strong {
+        font-size: 1.3rem;
       display: inline-block;
       font-weight: bolder;
       margin: 10px 0;
       border-bottom: 1px solid ($color2);
+
     }
   }
   
 }
-.drinkContainer {
+.artContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
   grid-auto-flow: dense;
   grid-gap: 15px;
   padding-top: 20px;
+  margin: 0 15px;
 }
