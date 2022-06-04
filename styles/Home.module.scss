@@ -65,3 +65,43 @@ $primary-color-light: #4c727c;
     }
 
 }
+
+@media screen and (max-width:958px) {
+    .pageBody {
+        
+    }
+
+    .titleContainer {
+        // padding-top: 8vh;
+        // padding-top: 4rem;
+        
+
+        h1 {
+            line-height: 1;
+            font-size: 5rem;
+            width: 90%;
+        }
+    
+        h2 {
+            padding-top: 15px;
+            line-height: 1;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            width: 90%;
+        }
+
+    }
+
+
+   
+
+
+}
+
+
+@media (hover: none) {
+    .titleContainer {
+        background-attachment: initial;
+    }
+}
+
