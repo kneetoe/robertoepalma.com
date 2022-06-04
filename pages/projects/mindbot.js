@@ -136,17 +136,17 @@ const mindbot = () => {
 
               <div className={projectStyles.gCont3}>
                 <img src='/images/mbp1.png'></img>
-                <p>Prototype 'Main menu'</p>
+                <p>Prototype &apos;Main menu&apos;</p>
               </div>
 
               <div className={projectStyles.gCont3}>
                 <img src='/images/mbp2.png'></img>
-                <p>Prototype 'Mindfulness'</p>
+                <p>Prototype &apos;Mindfulness&apos;</p>
               </div>
 
               <div className={projectStyles.gCont3}>
                 <img src='/images/mbp3.png'></img>
-                <p>Prototype 'Chat with bot'</p>
+                <p>Prototype &apos;Chat with bot&apos;</p>
                 
               </div>
             </div>
@@ -181,7 +181,7 @@ const mindbot = () => {
 
               <div className={projectStyles.gCont3}>
                 <img src='/images/mbdialogpt.png'></img>
-                <p>Prototype 'Mindfulness'</p>
+                <p>Hugging face</p>
               </div>
 
             </div>

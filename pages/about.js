@@ -158,7 +158,7 @@ const about = () => {
                 </div>
 
                 <div className={aboutStyle.credit}>
-                    credit to <a href='https://codepen.io/joellesenne' target='_blank'>
+                    credit to <a href='https://codepen.io/joellesenne'>
                         @joellesenne</a>
 
                 </div>
