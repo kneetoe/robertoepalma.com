@@ -135,7 +135,7 @@ class ArtDisplayerContainer extends React.Component {
                 
                 <strong>{spotifyLink ? "Listen here:" : ""}</strong>
                 <p>{""}</p>
-                {spotifyLink != null ? <iframe src={ spotifyLink } width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> : ""}
+                {spotifyLink != null ? <iframe src={ spotifyLink } width="100%" height="80" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> : ""}
                 
                 
               </div>

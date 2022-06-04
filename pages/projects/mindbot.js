@@ -166,7 +166,7 @@ const mindbot = () => {
                 This was the Huggingface DialoGPT model which was pretrained on reddit data. This
                 allowed us to have the computer carry out multiturn conversations with users. One
                 of the downsides that we would like to work on in the future is to have a dataset
-                that is more family friendly rather than reddit comments isn't necessarily ideal
+                that is more family friendly rather than reddit comments isn&#39;t necessarily ideal
                 for a therapeutic setting. 
 
                    </p>
@@ -176,7 +176,7 @@ const mindbot = () => {
 
               <div className={projectStyles.gCont3}>
                 <img src='/images/mbExpo.png'></img>
-                <p>Meta's Expo Framework</p>
+                <p>Meta&#39;s Expo Framework</p>
               </div>
 
               <div className={projectStyles.gCont3}>
