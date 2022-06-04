@@ -2,6 +2,8 @@ import React from 'react'
 import aboutStyle from '/styles/About.module.scss'
 import Meta from '../components/Meta'
 
+import treeStyle from '/styles/Tree.module.scss'
+
 
 const about = () => {
   return (
@@ -84,7 +86,89 @@ const about = () => {
             
             
         </div>
+
         
+        
+
+    </div>
+
+    <div className={aboutStyle.sectionLine}></div>
+
+    <div className={aboutStyle.aboutWeb}>
+            <h1>About this website</h1>
+            <div className={aboutStyle.tree}>
+
+                <img src='/images/pageDiagram.png'></img>
+
+                <div className={treeStyle.tree}>
+                    <ul>
+                        <li>
+                            <a href="#">App.js</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Layout</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Meta.js</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">Nav.js</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pages</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Index.js (home) </a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Projects.js</a>
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#">Project.js</a>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Button.js</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Art</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">ArtDisplayer.js</a>
+                                        
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Projects</a>
+                                                    
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className={aboutStyle.credit}>
+                    credit to <a href='https://codepen.io/joellesenne' target='_blank'>
+                        @joellesenne</a>
+
+                </div>
+
+            </div>
+
+            <p>This website was built using the Next.js which is a React Framework that is 
+                rising in popularity. Learn about some of the components that I used on each
+                 website</p>
+
 
     </div>
 

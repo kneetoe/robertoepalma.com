@@ -1,40 +1,11 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-* {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  
-  border: 0 none;
-    
-/*   -webkit-transition: all ease .4s;
-  -moz-transition: all ease .4s;
-    transition: all ease .4s; */
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-    
-  background: #385D66;
-    
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 18px;
-}
-
 
 .tree {
 
-  margin: 20px auto;
-  width: 600px;
+  margin: 0;
+  width: 857px;
   min-height: auto;
+  
+  
 }
 
 .tree ul {
@@ -134,5 +105,18 @@ body {
 .tree li a:hover+ul ul::before{
   content: '';
   border-color: #F1BF60;
+
+}
+
+@media screen and (min-width:1280px) {
+  .tree {
+    width: 1200px;
+    
+  }
+
+  .tree li a{
+    font-size: 1.5rem
+  }
+
 
 }

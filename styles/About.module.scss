@@ -133,6 +133,55 @@
 
 
     }
+
+    .aboutWeb {
+        display: flex;
+        flex-direction: column;
+        
+        margin: auto;
+
+        h1 {
+            width: 80%;
+            margin:auto;
+            margin-bottom: 30px;
+        }
+
+        .tree {
+            border: solid 3px #DFE0C0;
+            margin: auto;
+            border-radius: 25px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+
+            img {
+                display: none;
+            }
+
+
+            .credit {
+                color: #DFE0C0;
+                font-size: 1.3rem;
+                text-align: end;
+                margin: 20px 0;
+
+                a {
+                    text-decoration: underline;
+                }
+
+            }
+
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.5rem;
+            width: 50%;
+            text-align: center;
+            margin: auto;
+        }
+    }
     
     
 }
