@@ -23,7 +23,7 @@ const Nav = () => {
         
 
         <div className={navStyles.logo}>
-            <a href='/#'><p>Roberto<br/>Palma</p></a>
+            <a ><p>Roberto<br/>Palma</p></a>
         </div>
 
         <div className={isOpen === false ? 
