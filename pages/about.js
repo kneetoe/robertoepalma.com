@@ -17,7 +17,7 @@ const about = () => {
         <div className={aboutStyle.tContainer}>
             <img src='/images/rowingme.jpg'></img>
             <div className={aboutStyle.tText + " " + aboutStyle.slidein} >
-                <h2>Hello!</h2>
+                <h1>Hello!</h1>
             
                 <div className={aboutStyle.subtitle}>
                     <p>I’m Roberto, a Computer Science graduate from the Portland Oregon metropolis area</p>
@@ -34,6 +34,62 @@ const about = () => {
             
         </div>
     </div>
+
+    <div className={aboutStyle.sectionLine}></div>
+
+    <div className={aboutStyle.experience_education}>
+
+        <div className={aboutStyle.experience}>
+            <h1>Experience</h1>
+            <div className={aboutStyle.edBody}>
+                <span>NEAT Research Lab</span>
+                <div className= {aboutStyle.position_date}>
+                    <div className = {aboutStyle.job_position}>
+                        Undergraduate Research Assistant
+                    </div>
+                    <div className = {aboutStyle.job_date}>
+                        2018 - 2022
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div className={aboutStyle.education}>
+            <h1>Education</h1>
+            <div className={aboutStyle.exBody}>
+                <span>Western Washington University</span>
+                <div className= {aboutStyle.major_date}>
+                    <div className = {aboutStyle.majors}>
+                        <div>Bachelors of Science</div>
+                        <div>Minor in Mathematics</div>
+                       
+                    </div>
+                    <div className = {aboutStyle.job_date}>
+                        2018 - 2022
+                    </div>
+                </div>
+
+                <span>NEAT Research Lab</span>
+                <div className= {aboutStyle.major_date}>
+                    <div className = {aboutStyle.major}>
+                        Undergraduate Research Assistant
+                    </div>
+                    <div className = {aboutStyle.job_date}>
+                        2018 - 2022
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        </div>
+        
+
+    </div>
+
+    <div className={aboutStyle.sectionLine}></div>
+
 </div>
 
     </>
