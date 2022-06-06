@@ -7,7 +7,8 @@ const Nav = () => {
     const openMenu = () => setIsOpen(!isOpen);
     const openMenuIfOpened = () => isOpen ? setIsOpen(false): setIsOpen(false);
   return (
-    <nav className = {navStyles.nav}>
+    <nav className = {isOpen === false ? 
+    navStyles.nav : navStyles.nav + " " + navStyles.active}>
 
         <div className={navStyles.externalNav}>
             <ul>
@@ -23,7 +24,7 @@ const Nav = () => {
         
 
         <div className={navStyles.logo}>
-            <a ><p>Roberto<br/>Palma</p></a>
+            <Link href='/' ><p>Roberto<br/>Palma</p></Link>
         </div>
 
         <div className={isOpen === false ? 
