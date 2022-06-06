@@ -72,13 +72,13 @@ const about = () => {
                     </div>
                 </div>
 
-                <span>NEAT Research Lab</span>
+                <span>Clark College</span>
                 <div className= {aboutStyle.major_date}>
                     <div className = {aboutStyle.major}>
-                        Undergraduate Research Assistant
+                    Associate in the Arts
                     </div>
                     <div className = {aboutStyle.job_date}>
-                        2018 - 2022
+                        2016 - 2018
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ const about = () => {
 
                 <img src='/images/pageDiagram.png'></img>
 
-                <div className={treeStyle.tree}>
+                <div className={treeStyle.tree + " " + aboutStyle.treeList}>
                     <ul>
                         <li>
                             <a href="#">App.js</a>
@@ -164,6 +164,10 @@ const about = () => {
                 </div>
 
             </div>
+
+            <p className={aboutStyle.mobile}>
+                To view this diagram in access this page on a non-mobile device.
+            </p>
 
             <p>This website was built using the Next.js which is a React Framework that is 
                 rising in popularity. Learn about some of the components that I used on each

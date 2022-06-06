@@ -79,6 +79,7 @@
         border: 4px solid #DFE0C0;
         border-radius: 25px;
         margin: 60px auto;
+        background-color: #DFE0C0;
         
 
     }
@@ -189,6 +190,7 @@
 
 @media screen and (max-width:1280px) {
     .pageBody {
+        overflow: hidden;
         .tBlock {
             .tContainer {
                 padding-top: 100px;
@@ -203,6 +205,59 @@
 
             }
         }
+
+        .experience_education {
+            max-width: 500px;
+            width: auto;
+            
+            flex-direction: column;
+            
+
+            span {
+                font-size: 1.3rem;
+            }
+
+
+
+            .experience {
+                padding:0;
+                width: 100%;
+                font-size: 1.1rem;
+
+                .edBody {
+                
+                    .position_date {
+                        margin:0;
+                        margin-top: 10px;
+                        margin-bottom: 30px;
+
+                         .job_position {
+                            width: 50%;
+                        }
+                      
+
+                    }
+                    
+    
+                }
+            }
+
+            .education {
+                padding:0;
+                width: 100%;
+                font-size: 1.1rem;
+
+                .exBody {
+                    .major_date {
+                        margin:0;
+                        margin-top: 10px;
+                        margin-bottom: 30px;
+    
+                    }
+                    
+                }
+            }
+        }
     }
 
 
@@ -211,30 +266,93 @@
 
 @media screen and (max-width:958px) {
     .pageBody {
+
         .tBlock {
+            height: auto;
             .tContainer {
                 flex-direction: column;
-                padding-top: 40px;
+                padding-top: 20px;
             
                 max-width: auto;
                 width: 90%;
                 justify-content: flex-start;
 
                 img {
-                    height: 450px;
+                    height: 350px;
                     border-radius: 25px;
                     box-shadow: 10px 10px 0px #F1BF60;
                 }
-                h2 {
-                    margin-top: 10px;
+                
+
+                p {
+                    margin: 0;
+                }
+                .tText {
+                    margin: 0;
+                    .subtitle {
+                        font-size: 1.8rem;
+                        margin-bottom: 10px;
+
+                    }
+
+                    h1 {
+                        margin-top: 10px;
+                    }
                 }
 
             }
+        }
+        .experience_education {
+            max-width: 90%;
+        }
+
+        .aboutWeb {
+
+            h1 {
+                width: 90%;
+                
+            }
+
+            
+
+            .tree {
+                width: 95%;
+                margin-bottom: 10px;
+                
+
+                .treeList {
+                    display: none;
+                }
+
+                img {
+                    display: block;
+                    border-radius: 25px;
+                }
+
+                .credit {
+                    font-size: 1rem;
+                }
+
+            }
+
+            .mobile {
+                font-size: 1.2rem;
+                text-align: center;
+                padding-bottom: 20px;
+                font-style: italic;
+            }
+            P {
+                width: 90%;
+                font-size: 1.3rem;
+                text-align: start;
+            }
+
         }
     }
 
 
 }
+
 
 @keyframes slidein {
     from {
