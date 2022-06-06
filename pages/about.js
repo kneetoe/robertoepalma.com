@@ -100,51 +100,51 @@ const about = () => {
 
                 <img src='/images/pageDiagram.png'></img>
 
-                <div className={treeStyle.tree + " " + aboutStyle.treeList}>
+                <div className={treeStyle.tree + " " + aboutStyle.treeList + " tree"}>
                     <ul>
                         <li>
-                            <a href="#">App.js</a>
+                            <a href='#tree'>App.js</a>
                             <ul>
                                 <li>
-                                    <a href="#">Layout</a>
+                                    <a href="#tree">Layout</a>
                                     <ul>
                                         <li>
-                                            <a href="#">Meta.js</a>
+                                            <a href="#tree">Meta.js</a>
                                             
                                         </li>
                                         <li>
-                                            <a href="#">Nav.js</a>
+                                            <a href="#tree">Nav.js</a>
                                         </li>
                                         <li>
-                                            <a href="#">Pages</a>
+                                            <a href="#tree">Pages</a>
                                             <ul>
                                                 <li>
-                                                    <a href="#">Index.js (home) </a>
+                                                    <a href="#tree">Index.js (home) </a>
                                                     <ul>
                                                         <li>
-                                                            <a href="#">Projects.js</a>
+                                                            <a href="#tree">Projects.js</a>
                                                             <ul>
                                                                 <li>
-                                                                    <a href="#">Project.js</a>
+                                                                    <a href="#tree">Project.js</a>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li>
-                                                            <a href="#">Button.js</a>
+                                                            <a href="#tree">Button.js</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Art</a>
+                                                    <a href="#tree">Art</a>
                                                     <ul>
                                                         <li>
-                                                            <a href="#">ArtDisplayer.js</a>
+                                                            <a href="#tree">ArtDisplayer.js</a>
                                         
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Projects</a>
+                                                    <a href="#tree">Projects</a>
                                                     
                                                 </li>
                                             </ul>
