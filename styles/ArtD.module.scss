@@ -141,6 +141,7 @@
     align-items: center;
     border: 3px solid ($color2);
 
+
   }
   
   .modalText {
@@ -182,3 +183,59 @@
   padding-top: 20px;
   margin: 0 15px;
 }
+
+
+@media screen and (max-width:958px) {
+
+  .appContainer {
+
+    .modal {
+      width: 95%;
+    }
+
+    .modalBody {
+      display: flex;
+      width: 100%;
+      border: 0;
+
+      max-height: calc(100vh - 210px);
+      overflow-y: auto;
+      flex-direction: column;
+      
+
+    }
+
+    .modalText {
+      padding: 0;
+      p {
+        font-size: 1.1rem;
+      }
+
+      h2 {
+        margin:0 ; 
+        font-size: 2.5rem;
+      }
+      
+    }
+  }
+
+
+}
+
+@media (hover: none) {
+  .appContainer {
+
+    .drink {
+      &:after {
+        content: "";
+        display: none;
+      }
+
+      &:before {
+        content: "";
+        display: none;
+      }
+    }
+  }
+}
+
