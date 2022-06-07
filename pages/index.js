@@ -55,7 +55,7 @@ export default function Home() {
           <img src='/images/selfieborder.png'></img>
           <h1>Roberto Palma</h1>
           <h2>computer science graduate</h2>
-          <Button text='See more'></Button>
+          <Button link="/about"text='See more'></Button>
       </div>
       <a id="projects"></a>
 

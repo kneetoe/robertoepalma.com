@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import styles from '../styles/Button.module.scss'
 
-const Button = ({color, text, onClick}) => {
+const Button = ({color, text, onClick, link}) => {
 
   return (
-    <a>
+    <a href={link}>
       <button 
       onClick= {onClick}
       
