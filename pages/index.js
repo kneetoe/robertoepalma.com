@@ -16,6 +16,7 @@ export default function Home() {
       picture: "mindbot.png",
       phone: true,
       link: "mindbot",
+      published: true,
     },
     {
       id: 2,
@@ -24,6 +25,7 @@ export default function Home() {
       picture: "ma.png",
       phone: false,
       link: "mutual-aid",
+      published: false,
     },
     {
       id: 2,
@@ -32,6 +34,7 @@ export default function Home() {
       picture: "citi.png",
       phone: false,
       link: "citi-bank",
+      published: false,
     },
     {
       id: 2,
@@ -40,6 +43,7 @@ export default function Home() {
       picture: "deadwood.png",
       phone: false,
       link: "deadwood",
+      published: false,
     },
   ])
 

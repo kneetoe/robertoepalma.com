@@ -79,9 +79,41 @@ $primary-color-light: #528f7b;
         margin: 0;
     }
 
+    
+
 }
 
-.project:hover {
+.overlay {
+    display: none;
+}
+
+.unpublished {
+    position: relative;
+    .overlay {
+        z-index: 9;
+        background: rgba(56, 93, 102 , 50%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            color: #fff;
+            font-size: 4rem;
+            background-color:#EC795C;
+            padding: 12px;
+            border-radius: 10px;
+        }
+    }
+    
+}
+
+.projectM:hover, .projectD:hover {
     
     transform: translate3d(0,-5px,0);
     box-shadow: 0 52px 74px rgb(0 0 0 / 5%);
@@ -143,6 +175,14 @@ $primary-color-light: #528f7b;
             }
         }
 
+    }
+
+    .unpublished {
+        .overlay {
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
     }
 
 
