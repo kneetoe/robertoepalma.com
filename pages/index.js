@@ -35,7 +35,7 @@ export default function Home() {
     },
     {
       id: 2,
-      name: "Deadwood Board Game",
+      name: "Deadwood Game",
       madeFrom: "JavaFX",
       picture: "deadwood.png",
       phone: false,

@@ -4,8 +4,8 @@ import projectStyle from '../styles/Projects.module.scss'
 const Project = ({project}) => {
   return (
     <a href={'/projects/' + project.link}>
-        <div className={projectStyle.project}>
-            <div className={ project.phone ? projectStyle.phone : projectStyle.photo}>
+        <div className={project.phone ? projectStyle.projectM : projectStyle.projectD}>
+            <div className={ project.phone ? projectStyle.phone : projectStyle.desktop}>
                 <img src={"/images/" + project.picture}></img>
             </div>
 

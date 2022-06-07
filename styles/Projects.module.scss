@@ -1,7 +1,7 @@
 $primary-color-light: #528f7b;
 
 
-.project {
+.projectM, .projectD {
     transition: all .4s ease-in-out;
     margin-top: 4vw;
     padding: 20px;
@@ -31,7 +31,7 @@ $primary-color-light: #528f7b;
 
     }
 
-    .photo {
+    .desktop {
  
         display: flex;
         justify-content: center;
@@ -56,16 +56,17 @@ $primary-color-light: #528f7b;
 
         h2 {
             font-size: 2.5rem;
-            color: #fff;
-            text-overflow: ellipsis;
+            color:#fff;
+            text-shadow: 0.3rem 0.3rem 0px #EC795C;
+            
             white-space: nowrap;
             overflow: hidden;
             
         }
         h3 {
             font-size: 1.4rem;
-            color:#fff;
-            text-shadow: 0.2rem 0.2rem 0px #EC795C;
+            color: #fff;
+            
             margin-bottom:0;
 
             // color: #EC795C;
@@ -84,4 +85,67 @@ $primary-color-light: #528f7b;
     
     transform: translate3d(0,-5px,0);
     box-shadow: 0 52px 74px rgb(0 0 0 / 5%);
+}
+
+@media screen and (max-width:958px) {
+
+    .projectM {
+        overflow: hidden;
+        display: flex;
+        grid-gap: 5%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 478px;
+
+        .phone {
+            height: 350px;
+            img {
+                height: 330px;
+                
+            }
+        }
+        
+        
+
+        .description {
+            padding-right: 0px;
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .projectD {
+        overflow: hidden;
+        display: flex;
+        grid-gap: 5%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: 315px;
+
+        .desktop {
+            height: 350px;
+            img {
+                margin-top: 10px;
+                
+                width: 100%;
+                height: auto;
+                
+            }
+        }
+        
+        
+
+        .description {
+            padding-right: 0px;
+            h2 {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+
+
+
 }

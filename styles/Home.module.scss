@@ -39,11 +39,11 @@ $primary-color-light: #4c727c;
     justify-content: center;
     background-attachment: fixed;
 
+
     
     img {
         width: 30vh;
     }
-
 
     h1 {
         margin: 0;
@@ -52,6 +52,8 @@ $primary-color-light: #4c727c;
         font-size: 5.5rem;
         color: #FFFFFF;
         text-shadow: 0.5rem 0.5rem 0px #EC795C;
+        animation-name: slidein;
+        animation-duration: 2s;
     }
 
     h2 {
@@ -60,7 +62,9 @@ $primary-color-light: #4c727c;
         color:#ffffff;
         font-style: italic;
         text-align: center;
-        text-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.4)
+        text-shadow: 0.5rem 0.5rem 0.2rem rgba(0, 0, 0, 0.4);
+        animation-name: slidein;
+        animation-duration: 2s;
 
     }
 
@@ -69,6 +73,10 @@ $primary-color-light: #4c727c;
 @media screen and (max-width:958px) {
     .pageBody {
         
+    }
+
+    .projects {
+        width: 90%;
     }
 
     .titleContainer {
@@ -104,4 +112,17 @@ $primary-color-light: #4c727c;
         background-attachment: initial;
     }
 }
+
+@keyframes slidein {
+    from {
+      transform: translateY(-50px);
+      opacity:(0%);
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity:(100%);
+    }
+  }
+
 
