@@ -56,7 +56,7 @@ export default function Home() {
 
       <div className={styles.titleContainer}>
 
-          <img src='/images/selfieborder.png'></img>
+          <img src='/images/me.jpg'></img>
           <h1>Roberto Palma</h1>
           <h2>computer science graduate</h2>
           <Button link="/about"text='See more'></Button>
