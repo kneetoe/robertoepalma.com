@@ -24,8 +24,8 @@ export default function Home() {
       madeFrom: "Node.js",
       picture: "ma.png",
       phone: false,
-      link: "mutual-aid",
-      published: false,
+      link: "https://sites.google.com/view/mutualaidcsci436/home",
+      published: true,
     },
     {
       id: 2,
