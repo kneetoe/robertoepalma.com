@@ -25,10 +25,10 @@ export default function Home() {
       picture: "ma.png",
       phone: false,
       link: "https://sites.google.com/view/mutualaidcsci436/home",
-      published: true,
+      published: false,
     },
     {
-      id: 2,
+      id: 3,
       name: "Citi Bank Helper",
       madeFrom: "Python Tkinter",
       picture: "citi.png",
@@ -37,7 +37,7 @@ export default function Home() {
       published: false,
     },
     {
-      id: 2,
+      id: 4,
       name: "Deadwood Game",
       madeFrom: "JavaFX",
       picture: "deadwood.png",
