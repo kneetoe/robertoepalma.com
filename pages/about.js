@@ -10,7 +10,7 @@ const about = () => {
     <>
     <div className={aboutStyle.pageBody}>
 
-    <Meta title='MindBot Application' />
+    <Meta title='About Me' />
 
 
     <div className={aboutStyle.tBlock}>
@@ -22,7 +22,7 @@ const about = () => {
                 <h1>Hello!</h1>
             
                 <div className={aboutStyle.subtitle}>
-                    <p>I’m Roberto, a Computer Science graduate from the Portland Oregon metropolis area</p>
+                    <p>I&#39;m Roberto, a Computer Science graduate from the Portland Oregon metropolis area</p>
                 </div>
                 <div className={aboutStyle.paragraph}>
                     <p>I am an eager computer science graduate looking for career oppertunities around me. Specifically in a software Engineer position, or in Web Development
