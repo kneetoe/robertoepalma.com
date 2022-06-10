@@ -16,20 +16,21 @@ import Script from 'next/script'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Script
+     <Script
       strategy='lazyOnload'
-      src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+      src={`https://www.googletagmanager.com/gtag/js?id=${ process.env.NEXT_PUBLIC_GA }`}
       id='Google1'/>
 
       <Script
-      id='Google2'
+      id="google2"
       strategy='lazyOnload'>
         {`window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});`}
+    gtag('config', '${ process.env.NEXT_PUBLIC_GA }');`}
       </Script>
+
       <Layout>
       
         <Component {...pageProps} />
@@ -39,3 +40,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+
