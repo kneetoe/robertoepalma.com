@@ -1,0 +1,46 @@
+
+.formContainer {
+
+        input[type=text], textarea {
+            width: 100%;
+            color: #fff;
+            padding: 12px;
+            border: 0px solid #ccc;
+            border-radius: 10px;
+            resize: vertical;
+            background-color: #528F7B;
+            margin-bottom: 20px;
+            font-family: 'Exo 2';
+            font-size: 1.5rem;
+        }
+
+        label {
+            display: inline-block;
+            color: #fff;
+            font-size: 1.7rem;
+            padding: 12px 12px 2px 0;
+            font-weight: 900;
+
+        }
+
+
+        button {
+            padding: 1em 1.5em;
+            background-color: #EC795C;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 1.5em;
+            font-family: "Exo 2";
+            font-size: 1.5em;
+            color: #fff;
+            cursor: pointer;
+            transition-duration: 0.4s;
+            font-weight: 900;
+        }
+
+        textarea {
+            resize: none;
+            height: 150px;
+        }
+    
+}
