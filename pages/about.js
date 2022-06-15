@@ -3,6 +3,8 @@ import aboutStyle from '/styles/About.module.scss'
 import Meta from '../components/Meta'
 
 import treeStyle from '/styles/Tree.module.scss'
+import Button from '../components/Button'
+import Form from '../components/Form'
 
 
 const about = () => {
@@ -177,6 +179,50 @@ const about = () => {
     </div>
 
     <div className={aboutStyle.sectionLine}></div>
+
+    <div className={aboutStyle.places}>
+        <div className={aboutStyle.title}>
+            <h1>Places I&#39;ve been</h1>
+            <img src='/images/star.png'></img>
+
+        </div>
+
+        
+            
+        <p>One of the one my favorite hobbies is traveling. I have been very fortunate and blessed
+                to be able to travel as much as I do. Every place I go builds up a part of me. It
+                influences how I see the culture I grew up with and be open and willing to learn
+                more about the different cultures around me. I have been to 10 countries and have 
+                enjoyed each one of them. I have created a small collage of every country I have 
+                visited, and you are welcome to view it if you have some spare time.</p>
+
+        <img src='/images/countries.png'></img>
+
+        <Button text='View Photo Album'></Button>
+    </div>
+
+    <div className={aboutStyle.sectionLine}></div>
+
+
+    <div className={aboutStyle.formSection}>
+        <h1>Contact me</h1>
+
+        <div className={aboutStyle.content}>
+            <div className={aboutStyle.contactPhoto}>
+                <img src='images/camas.jpg'></img>
+                <p>My home town in Camas WA</p>
+            </div>
+            
+            <div className={aboutStyle.form}>
+                <Form></Form>
+            </div>
+        </div>
+
+    </div>
+
+    <div className={aboutStyle.sectionLine}></div>
+
+    
 
 </div>
 

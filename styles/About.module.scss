@@ -187,6 +187,87 @@
             display: none;
         }
     }
+
+    .places {
+        max-width: 80%;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            
+            margin:auto;
+            margin-bottom: 30px;
+
+            img {
+                height: 70px;
+                width: auto;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-size: 1.6rem;
+            width: 100%;
+            text-align: left;
+            margin: auto;
+            margin-bottom: 75px;
+        }
+
+        img { 
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        button {
+            margin:auto;
+        }
+
+        
+
+        
+        
+
+    }
+
+    .formSection {
+        width: 1500px;
+        width: 80%;
+        margin: auto;
+
+        .content {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            .contactPhoto {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 48%;
+                img {
+                    width: 90%;
+                
+                    border-radius: 13px;
+                    height: 700px;
+                    object-fit: cover;
+                }
+
+                p {
+                    margin: 10px;
+                    color: #fff;
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+            }
+            .form {
+                width: 48%;
+            }
+        }
+    }
     
     
 }
