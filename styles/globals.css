@@ -20,3 +20,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.not-found {
+  display :flex;
+  align-items: center;
+  justify-content: center;
+  color:#fff;
+  flex-direction: column;
+  height: 100vh;
+
+  
+}
+
+.not-found a {
+  text-decoration: underline;
+  font-weight: 900;
+}
