@@ -104,9 +104,16 @@ $primary-light: #436D77;
 
 
     .externalNav {
-      img {
+      ul li a {
         width: 40px;
+        display: block;
       }
+
+      li {
+        width: 100px;
+      }
+
+
       ul {
         display: flex;
         justify-content: center;
@@ -136,14 +143,32 @@ $primary-light: #436D77;
     
 
   }
+
+@media screen and (max-width:958px) {
+
+  .nav  {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}
   
 @media screen and (max-width:800px) {
+
+  // .nav {
+  //   padding-left: 0;
+  //   padding-right:0;
+  // }
 
    .nav .externalNav {
     // display: none;
     ul {
       padding: 0%;
       transform: translate(0px, 0px);
+
+      li {
+        width: 70px;
+      }
       li:nth-child(2) {
         transform: translate(-15px, 0px);
       }

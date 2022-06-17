@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import navStyles from '../styles/Nav.module.scss'
 import { useState } from 'react'
+import Image from 'next/image'
 
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +14,16 @@ const Nav = () => {
         <div className={navStyles.externalNav}>
             <ul>
                 <li>
-                    <a href="https://github.com/kneetoe"><img src='/images/github.png'/></a>
+                    <a href="https://github.com/kneetoe">
+                        
+                        <Image layout='responsive' width={40} height={40} src='/images/github.png'/>
+                        </a>
                     
                 </li>
                 <li>
-                <a href="https://www.linkedin.com/in/robertoepalma/"><img src='/images/linkedin.png'/></a>
+                    <a href="https://www.linkedin.com/in/robertoepalma/">
+                        <Image layout='responsive' width={40} height={40} src='/images/linkedin.png'/>
+                    </a>
                 </li>
             </ul>
         </div>
