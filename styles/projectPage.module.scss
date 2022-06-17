@@ -49,14 +49,15 @@
 
             align-items: center;
             justify-content: space-between;
-            img {
+            
+            .titleImg {
                 max-width: 30%;
                 position: relative;
             }
-            img:nth-child(2) {
+            .titleImg:nth-child(2) {
                 top: -90px
             }
-            img:nth-child(3) {
+            .titleImg:nth-child(3) {
                 top: -180px
             }
 
@@ -151,7 +152,7 @@
                     font-size: 1.2rem;
                 }
 
-                img {
+                .bodyImg {
                     max-width: 100%;
                 }
                 
@@ -165,7 +166,7 @@
                     font-size: 1.2rem;
                 }
 
-                img {
+                .bodyImg {
                     max-width: 100%;
                 }
                 
@@ -195,10 +196,10 @@
             }
 
             .titlePhoto {
-                img:nth-child(2) {
+                .titleImg:nth-child(2) {
                     top: 0;
                 }
-                img:nth-child(3) {
+                .titleImg:nth-child(3) {
                     top: 0;
                 }
 

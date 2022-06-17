@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import Meta from '../../components/Meta'
 import projectStyles from '../../styles/projectPage.module.scss'
@@ -20,9 +21,19 @@ const mindbot = () => {
 
           <div className={projectStyles.titlePhoto}>
 
-            <img src='/images/mindbot2.png'></img>
-            <img src='/images/mindbot1.png'></img>
-            <img src='/images/mindbot.png'></img>
+            
+            <div className={projectStyles.titleImg}>
+              <Image src='/images/mindbot2.png' width={457} height={980} />
+            </div>
+
+            <div className={projectStyles.titleImg}>
+              <Image src='/images/mindbot1.png' width={457} height={980} />
+            </div>
+            <div className={projectStyles.titleImg}>
+              <Image src='/images/mindbot.png' width={457} height={980} />
+            </div>
+            
+            
 
           </div>
       </div>
@@ -46,12 +57,21 @@ const mindbot = () => {
             <div className={projectStyles.contentGallery}>
 
               <div className={projectStyles.gCont}>
-                  <img src='/images/mindbotGraph.png'></img>
+                  
+                  <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mindbotGraph.png' width={473} height={518}/>
+                  </div>
+
+
+                  
                   <p>Participants in the study</p>
               </div>
 
               <div className={projectStyles.gCont}>
-                <img src='/images/mindbotAtlas.png'></img>
+
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mindbotAtlas.png' width={972} height={692}/>
+                  </div>
                 <p>Program for qualitative research or qualitative data analysis</p>
               </div>
 
@@ -78,7 +98,11 @@ const mindbot = () => {
 
             <div className={projectStyles.contentPhotos}>
                 <div className={projectStyles.pCont}>
-                  <img src='/images/mbIcon1.png'></img>
+                  
+                  <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbIcon1.png' width={228} height={236}/>
+                  </div>
+                  
                   <h3>Mindfulness Page</h3>
                   <p>Breathe in, now breathe out. This page allows users to practice
                      mindfulness. The idea was to offer guided practices with videos
@@ -86,7 +110,10 @@ const mindbot = () => {
                   </p>
                 </div>
                 <div className={projectStyles.pCont}>
-                  <img src='/images/mbIcon2.png'></img>
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbIcon2.png' width={228} height={236}/>
+                  </div>
+                  
                   <h3>ChatBot Page</h3>
                   <p>How was your day? By utilizing the existing technologies, we can offer
                      users mental relief. Most people find it very helpful to have someone
@@ -95,7 +122,11 @@ const mindbot = () => {
                     </p>
                 </div>
                 <div className={projectStyles.pCont}>
-                  <img src='/images/mbIcon3.png'></img>
+                  
+                  <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbIcon3.png' width={228} height={236}/>
+                  </div>
+                  
                   <h3>Instant Page</h3>
                   <p>Sometimes there are emergencies where potential users would need immediate
                      help. For example, when they find themselves in a very stressful time.
@@ -136,17 +167,26 @@ const mindbot = () => {
             <div className={projectStyles.contentGallery}>
 
               <div className={projectStyles.gCont3}>
-                <img src='/images/mbp1.png'></img>
+                
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbp1.png' width={377} height={754}/>
+                  </div>
                 <p>Prototype &apos;Main menu&apos;</p>
               </div>
 
               <div className={projectStyles.gCont3}>
-                <img src='/images/mbp2.png'></img>
+                
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbp2.png' width={377} height={754}/>
+                  </div>
                 <p>Prototype &apos;Mindfulness&apos;</p>
               </div>
 
               <div className={projectStyles.gCont3}>
-                <img src='/images/mbp3.png'></img>
+                
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbp3.png' width={377} height={754}/>
+                </div>
                 <p>Prototype &apos;Chat with bot&apos;</p>
                 
               </div>
@@ -179,12 +219,18 @@ const mindbot = () => {
             <div className={projectStyles.contentGallery}>
 
               <div className={projectStyles.gCont3}>
-                <img src='/images/mbExpo.png'></img>
+
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbExpo.png' width={512} height={512}/>
+                </div>
                 <p>Meta&#39;s Expo Framework</p>
               </div>
 
               <div className={projectStyles.gCont3}>
-                <img src='/images/mbdialogpt.png'></img>
+                <div className={projectStyles.bodyImg}>
+                    <Image src='/images/mbdialogpt.png' width={1200} height={648}/>
+                </div>
+
                 <p>Hugging face</p>
               </div>
 
@@ -209,12 +255,19 @@ const mindbot = () => {
             <div className={projectStyles.contentGallery}>
 
               <div className={projectStyles.gCont}>
-                  <img src='/images/mbdiagram2.png'></img>
+                  <div className={projectStyles.bodyImg}>
+                      <Image src='/images/mbdiagram2.png' width={1132} height={689}/>
+                  </div>
+                  
                   <p>App Navigation</p>
               </div>
 
               <div className={projectStyles.gCont}>
-                <img src='/images/mbdiagram1.png'></img>
+
+                <div className={projectStyles.bodyImg}>
+                      <Image src='/images/mbdiagram1.png' width={1045} height={486}/>
+                </div>
+                
                 <p>Database communication</p>
               </div>
 
