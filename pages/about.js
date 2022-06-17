@@ -198,7 +198,7 @@ const about = () => {
 
         <img src='/images/countries.png'></img>
 
-        <Button text='View Photo Album'></Button>
+        <Button link="/photoalbum" text='View Photo Album'></Button>
     </div>
 
     <div className={aboutStyle.sectionLine}></div>
