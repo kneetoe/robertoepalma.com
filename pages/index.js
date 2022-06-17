@@ -6,6 +6,7 @@ import Button from '../components/Button'
 import Projects from '../components/Projects'
 import { useState } from 'react'
 
+
 export default function Home() {
 
   const [projects, setProjects] = useState([
@@ -56,7 +57,11 @@ export default function Home() {
 
       <div className={styles.titleContainer}>
 
-          <img src='/images/me.jpg'></img>
+          <div className={styles.portraitImg}>
+          <Image layout='responsive' src='/images/me.jpg' height={284} width={284}/>
+          </div>
+          
+          {/* <img src='/images/me.jpg'/> */}
           <h1>Roberto Palma</h1>
           <h2>computer science graduate</h2>
           <Button link="/about"text='See more'></Button>

@@ -1,5 +1,6 @@
 import React from 'react'
 import projectStyle from '../styles/Projects.module.scss'
+import Image from 'next/image'
 
 const Project = ({project}) => {
 
@@ -14,7 +15,16 @@ const Project = ({project}) => {
           
             }>
               <div className={ project.phone ? projectStyle.phone : projectStyle.desktop}>
-                  <img src={"/images/" + project.picture}></img>
+                  {/* <img src={"/images/" + project.picture}></img> */}
+
+                  <div className={projectStyle.projectImg}>
+                  <Image layout='responsive' src={"/images/" + project.picture} 
+                  height={project.phone ? 768 : 440} 
+                  width={project.phone ? 358 : 769}
+                  
+                  
+                  />
+                  </div>
               </div>
 
               <div className={projectStyle.description}>
