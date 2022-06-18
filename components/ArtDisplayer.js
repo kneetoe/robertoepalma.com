@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../styles/ArtD.module.scss'
 
+import Image from 'next/image'
+
 const ArtDisplayer = () => {
   return (
     <div>
@@ -84,7 +86,9 @@ class ArtDisplayerContainer extends React.Component {
       return (
         <div className={styles.drink} id={idArt} onClick={(e) => this.openModal(e, index, idArt)}>
           <figure>
-            <img src={strArtThumb} />
+            <div className={styles.modalImg}>
+              <Image src={strArtThumb} height={460} width={460}/>
+            </div>
             <figcaption>
               {strArt}
             </figcaption>
@@ -126,7 +130,7 @@ class ArtDisplayerContainer extends React.Component {
             <a href="#" className={styles.modalClose} onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
             <div className={styles.modalBody}>
               <div className={styles.modalImg}>
-                <img src={strArtThumb} />
+                <Image layout='responsive' src={strArtThumb} height={460} width={460}/>
               </div>            
               <div className={styles.modalText}>
                 <h2>{strArt}</h2>

@@ -53,16 +53,21 @@
     color:#fff;
     font-size: 1.3rem
   }
-  figure img {
+  figure .modalImg {
     border: 5px solid #4c727c;
   }
   
-  .drink img, .modal img {
+  .modalImg {
     width: 100%;
     height: auto;
   }
   
   .drink {
+    .modalImg:hover {
+      opacity: 0.5;
+      background-color: black;
+      cursor: pointer;
+    }
     position: relative;
     border: 1px solid $color2;
     font-size: 0;
@@ -73,7 +78,7 @@
     }
     &:after {
     
-      content: 'ℹ︎';
+      content: '';
       font-size: 80px;
       border-bottom: 10px solid #fff;
       position: absolute;
@@ -84,7 +89,7 @@
       display: block;
     }
     &:before {
-      content: "";
+      content: "i";
       position: absolute;
       top: 0; bottom: 0; left: 0; right: 0;
       background: rgba(#222, 0.5);
@@ -122,6 +127,7 @@
     right: 6px;
     top: 6px;
     font-size: 22px;
+    z-index: 3;
   }
   
   .modalOverlay {
@@ -188,6 +194,12 @@
 @media screen and (max-width:958px) {
 
   .appContainer {
+
+    .drink {
+      .modalImg:hover {
+        opacity: 1;
+      }
+    }
 
     .modal {
       width: 95%;
