@@ -19,33 +19,33 @@ export default function Home() {
       link: "mindbot",
       published: true,
     },
-    {
-      id: 2,
-      name: "Mutual Aid Website",
-      madeFrom: "Node.js",
-      picture: "ma.png",
-      phone: false,
-      link: "https://sites.google.com/view/mutualaidcsci436/home",
-      published: false,
-    },
-    {
-      id: 3,
-      name: "Citi Bank Helper",
-      madeFrom: "Python Tkinter",
-      picture: "citi.png",
-      phone: false,
-      link: "citi-bank",
-      published: false,
-    },
-    {
-      id: 4,
-      name: "Deadwood Game",
-      madeFrom: "JavaFX",
-      picture: "deadwood.png",
-      phone: false,
-      link: "deadwood",
-      published: false,
-    },
+    // {
+    //   id: 2,
+    //   name: "Mutual Aid Website",
+    //   madeFrom: "Node.js",
+    //   picture: "ma.png",
+    //   phone: false,
+    //   link: "https://sites.google.com/view/mutualaidcsci436/home",
+    //   published: false,
+    // },
+    // {
+    //   id: 3,
+    //   name: "Citi Bank Helper",
+    //   madeFrom: "Python Tkinter",
+    //   picture: "citi.png",
+    //   phone: false,
+    //   link: "citi-bank",
+    //   published: false,
+    // },
+    // {
+    //   id: 4,
+    //   name: "Deadwood Game",
+    //   madeFrom: "JavaFX",
+    //   picture: "deadwood.png",
+    //   phone: false,
+    //   link: "deadwood",
+    //   published: false,
+    // },
   ])
 
 
@@ -64,9 +64,15 @@ export default function Home() {
           {/* <img src='/images/me.jpg'/> */}
           <h1>Roberto Palma</h1>
           <h2>computer science graduate</h2>
-          <Button link="/about"text='See more'></Button>
+          <Button link="/#projects"text='See more'></Button>
       </div>
-      <a id="projects"></a>
+
+      <div className={styles.projectAnchor}><a id="projects"></a></div>
+      <div className={styles.projectContainer}>
+      
+        <h3>Projects</h3>
+      </div>
+      
 
       <div className={styles.projects}> 
         <Projects

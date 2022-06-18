@@ -80,6 +80,28 @@ $primary-color-light: #4c727c;
 
 }
 
+.projectAnchor {
+    position: relative;
+    bottom: 4rem;
+    z-index: -1;
+
+}
+
+.projectContainer {
+    width: 100%;
+    padding:10px;
+    background-color: #DFE0C0;
+    background: linear-gradient(262deg, rgba(56,93,102,1) 0%, rgba(75,114,123,1) 65%, rgba(106,147,157,1) 100%);
+    h3 {
+        color:#EC795C;
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 30px;
+    }
+
+}
+
+
 @media screen and (max-width:958px) {
     .pageBody {
         
@@ -108,6 +130,12 @@ $primary-color-light: #4c727c;
             width: 90%;
         }
 
+    }
+
+    .projectContainer {
+        h3 {
+            margin: 20px;
+        }
     }
 
 
