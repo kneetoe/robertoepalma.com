@@ -7,6 +7,7 @@ import Projects from '../components/Projects'
 import { useState } from 'react'
 
 
+
 export default function Home() {
 
   const [projects, setProjects] = useState([
@@ -64,10 +65,11 @@ export default function Home() {
           {/* <img src='/images/me.jpg'/> */}
           <h1>Roberto Palma</h1>
           <h2>computer science graduate</h2>
-          <Button link="/#projects"text='See more'></Button>
+          {/* <Button link="/#projects"text='See more'></Button> */}
+          <a id="projects"></a>
       </div>
 
-      <div className={styles.projectAnchor}><a id="projects"></a></div>
+      <div className={styles.projectAnchor}></div>
       <div className={styles.projectContainer}>
       
         <h3>Projects</h3>
