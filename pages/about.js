@@ -5,6 +5,7 @@ import Meta from '../components/Meta'
 import treeStyle from '/styles/Tree.module.scss'
 import Button from '../components/Button'
 import Form from '../components/Form'
+import Image from 'next/image'
 
 
 const about = () => {
@@ -19,7 +20,10 @@ const about = () => {
         
 
         <div className={aboutStyle.tContainer}>
-            <img src='/images/rowingme.jpg'></img>
+            <div className={aboutStyle.imageContainer}>
+                <Image src='/images/rowingme.jpg' layout='responsive' width={500} height={500}/>
+            </div>
+            
             <div className={aboutStyle.tText + " " + aboutStyle.slidein} >
                 <h1>Hello!</h1>
             
@@ -100,7 +104,6 @@ const about = () => {
             <h1>About this website</h1>
             <div className={aboutStyle.tree}>
 
-                <img src='/images/pageDiagram.png'></img>
 
                 <div className={treeStyle.tree + " " + aboutStyle.treeList + " tree"}>
                     <ul>
@@ -183,7 +186,10 @@ const about = () => {
     <div className={aboutStyle.places}>
         <div className={aboutStyle.title}>
             <h1>Places I&#39;ve been</h1>
-            <img src='/images/star.png'></img>
+            <div className={aboutStyle.imageContainer}>
+                <Image src='/images/star.png' layout='responsive' width={50} height={50}/>
+            </div>
+            
 
         </div>
 
@@ -196,7 +202,10 @@ const about = () => {
                 enjoyed each one of them. I have created a small collage of every country I have 
                 visited, and you are welcome to view it if you have some spare time.</p>
 
-        <img src='/images/countries.png'></img>
+        <div className={aboutStyle.imageContainer2}>
+            <Image src='/images/countries.png' layout='responsive' width={2024} height={806}/>
+        </div>
+        {/* <img src='/images/countries.png'></img> */}
 
         <Button link="/photoalbum" text='View Photo Album'></Button>
     </div>
@@ -209,7 +218,15 @@ const about = () => {
 
         <div className={aboutStyle.content}>
             <div className={aboutStyle.contactPhoto}>
-                <img src='images/camas.jpg'></img>
+                <div className={aboutStyle.imageContainer}>
+                    <Image src='/images/camas.jpg' 
+                    layout='fill' 
+                    
+                    quality={300} unoptimized 
+                    objectFit='cover'/>
+                    {/* <img src='images/camas.jpg'></img> */}
+                </div>
+                
                 <p>My home town in Camas WA</p>
             </div>
             
