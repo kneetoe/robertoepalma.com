@@ -83,6 +83,27 @@ export default function Home() {
       
       </div>
 
+      <div className={styles.projectContainer}>
+      
+        <h3>Website creating</h3>
+      </div>
+
+      <div className={styles.websiteCreating}>
+
+        <div className={styles.sideText}>
+          <p>HTML & CSS</p>
+        </div>
+
+        <div className={styles.description}>
+          <h4>Are you looking to build a quality website fast?</h4>
+          <p>I have made two websites under my belt using Next.js if you are a small business owner wanting to get a website done. 
+            Look no further. With reasonable pricing, I can build a website that will wow your customers and is custom enough to 
+            remain true to your business. Please contact me today!</p>
+        </div>
+      
+        
+      </div>
+
 
     </div>
     

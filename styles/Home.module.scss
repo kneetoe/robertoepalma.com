@@ -1,5 +1,6 @@
 $primary-color: #385D66;
 $primary-color-light: #4c727c;
+$secondary: #528f7b;
 
 .pageBody {
     background-color: #385D66;
@@ -106,9 +107,48 @@ $primary-color-light: #4c727c;
 
 }
 
+.websiteCreating {
+    background-color: $secondary;
+    width: 80%;
+    margin: 30px 0 ;
+    padding: 20px;
+    display: flex;
+    color: #fff;
+    border-radius: 20px;
+    align-items: center;
+
+
+    .sideText {
+        font-size: 50px;
+        width: 40%;
+        p {
+            font-weight: 700;
+            text-align: center;
+            padding-right: 20px;
+            background: linear-gradient(263.73deg, #EC795C 9.94%, #F1BF60 83.75%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+    .description {
+        h4 {
+            font-size: x-large;
+            margin-bottom: 10px;
+        }
+        width: 60%;
+    }
+
+
+    
+
+}
+
 
 @media screen and (max-width:958px) {
     .pageBody {
+        
         
     }
 
