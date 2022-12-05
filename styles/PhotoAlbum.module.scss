@@ -1,12 +1,210 @@
 
 .pageContainer {
     margin-top: 4rem;
+    width: 100%;
+    position: relative;
+    min-height: 200vh;
     
-    h1 {
-        font-size: 3.5rem;
-        color:#fff;
-        text-shadow: 0.3rem 0.3rem 0px #EC795C;
-        margin-bottom:20px;
-        margin-top: 0;
+    
+    .tContainer {
+        width: 100%;
+        height: 1050px;
+        background: rgb(56,93,102);
+        background: linear-gradient(262deg, rgba(56,93,102,1) 0%, rgba(75,114,123,1) 65%, rgba(106,147,157,1) 100%);
+        padding: 0 0 6em;
+        position: relative;
+        z-index: 5;
+       
+
+       
     }
+
+    .pictures {
+        top: -1000px;
+        position: relative;
+        z-index: 100;
+        width: 80%;
+        margin:auto;
+        h1 {
+            font-size: 3.5rem;
+            color:#fff;
+            text-shadow: 0.3rem 0.3rem 0px #EC795C;
+            margin-bottom:20px;
+            margin-top: 0;
+            z-index: 1;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2.5rem;
+            color:#fff;
+            text-shadow: 0.3rem 0.3rem 0px #EC795C;
+            margin-bottom:20px;
+            margin-top: 0;
+            z-index: 5;
+        }
+
+        .p1 {
+            
+
+            .cont1 {
+                margin-bottom: 1.6vw;
+                display: flex;
+                gap: 2%;
+
+                .imageCont {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .p2 {
+            .cont1 {
+                margin-bottom: 1.6vw;
+                display: flex;
+                gap: 1.4%;
+
+                .imageCont:nth-child(1) {
+                    width: 32%;
+                }
+                .imageCont:nth-child(2) {
+                    width: 36%;
+                }
+                .imageCont:nth-child(3) {
+                    width: 27.5%;
+                }
+            }
+        }
+
+        .p3 {
+            display: flex;
+            gap:3%;
+            
+            .cont1 {
+                margin-bottom: 1.6vw;
+                width: 45%;
+                
+
+                .imageCont {
+                    width: 100%;
+                }
+            }
+
+            .cont2 {
+                display: flex;
+                width: 52%;
+
+                flex-direction: column;
+                gap: 2.4vw;
+
+                .imageCont {
+                    width: 100%;
+                }
+
+            }
+
+        }
+
+        .p4 {
+            display: flex;
+            gap:2%;
+
+            .cont1 {
+                display: flex;
+                width: 49%;
+
+                flex-direction: column;
+                gap: 1.6vw;
+
+                .imageCont {
+                    width: 100%;
+                }
+
+            }
+            
+            .cont2 {
+                margin-bottom: 1.6vw;
+                width: 49%;
+                
+
+                .imageCont {
+                    width: 100%;
+                }
+            }
+
+            
+
+        }
+
+        .p5 {
+            display: flex;
+            flex-direction: column;
+            gap:2%;
+            
+            
+
+            .cont1 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2.4vw;
+
+                .imageCont {
+                    width: 79%;
+                    
+                }
+
+            }
+            
+            .cont2 {
+                
+                width: 100%;
+                display:flex;
+                gap: 3%;
+
+                
+
+                .imageCont {
+                    width: 100%;
+                }
+            }
+
+            
+
+        }
+
+        .p6 {
+            display: flex;
+            flex-direction: column;
+            
+
+            .cont1 {
+                margin-bottom: 1.6vw;
+                display: flex;
+                gap: 2%;
+                width: 100%;
+
+                .imageCont:nth-child(1) {
+                    width: 48%;
+                }
+                .imageCont:nth-child(2) { 
+                    width: 49%;
+                }
+            }
+
+            .cont2 {
+                width: 100%;
+
+                .imageCont {
+                    width: 100%;
+                }
+
+            }
+
+        }
+    
+    }
+
+
+
 }
