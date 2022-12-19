@@ -166,7 +166,7 @@ const photoalbum = () => {
 
         </div>
 
-        <h2>Nicaragua</h2>
+        <h2>Poland</h2>
         <div className={styles.p6}>
           <div className={styles.cont1}>
             <div className={styles.imageCont}>
@@ -189,6 +189,122 @@ const photoalbum = () => {
           </div>
 
 
+
+        </div>
+
+        <h2>Spain</h2>
+        <div className={styles.p6}>
+          <div className={styles.cont1}>
+            <div className={styles.imageCont}>
+              <Image width={744} height={663}
+                layout='responsive' src='/images/photos/p7/1.png'></Image>
+            </div>
+            <div className={styles.imageCont}>
+                <Image width={765} height={663}
+                  layout='responsive' src='/images/photos/p7/2.png'></Image>
+            </div>
+
+          </div>
+
+          <div className={styles.cont2}>
+            <div className={styles.imageCont}>
+              <Image width={1554} height={641}
+                layout='responsive' src='/images/photos/p7/3.png'></Image>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <h2>Germany</h2>
+        <div className={styles.p8}>
+
+        
+
+          <div className={styles.cont1}>
+           
+            
+            <div className={styles.imageCont}>
+              <Image width={887} height={629}
+                layout='responsive' src='/images/photos/p8/1.png'></Image>
+            </div>
+
+            <div className={styles.imageCont}>
+              <Image width={887} height={666}
+                layout='responsive' src='/images/photos/p8/2.png'></Image>
+            </div>
+            
+
+          </div>
+
+          <div className={styles.cont2}>
+            <div className={styles.imageCont}>
+              <Image width={623} height={1342}
+                layout='responsive' src='/images/photos/p8/3.png'></Image>
+            </div>
+
+        </div>
+
+        </div>
+
+        <h2>England</h2>
+        <div className={styles.p9}>
+
+        <div className={styles.cont1}>
+            <div className={styles.imageCont}>
+              <Image width={804} height={895}
+                layout='responsive' src='/images/photos/p9/1.png'></Image>
+            </div>
+
+        </div>
+
+          <div className={styles.cont2}>
+           
+            
+            <div className={styles.imageCont}>
+              <Image width={693} height={414}
+                layout='responsive' src='/images/photos/p9/2.png'></Image>
+            </div>
+
+            <div className={styles.imageCont}>
+              <Image width={693} height={448}
+                layout='responsive' src='/images/photos/p9/3.png'></Image>
+            </div>
+            
+
+          </div>
+
+        </div>
+
+        <h2>Mexico</h2>
+        <div className={styles.p10}>
+
+        <div className={styles.cont1}>
+            <div className={styles.imageCont}>
+              <Image width={859} height={1141}
+                layout='responsive' src='/images/photos/p10/1.png'></Image>
+            </div>
+
+        </div>
+
+          <div className={styles.cont2}>
+           
+            
+            <div className={styles.imageCont}>
+              <Image width={517} height={608}
+                layout='responsive' src='/images/photos/p10/2.png'></Image>
+            </div>
+
+            <div className={styles.imageCont}>
+              <Image width={517} height={481}
+                layout='responsive' src='/images/photos/p10/3.png'></Image>
+            </div>
+            
+
+          </div>
 
         </div>
 
